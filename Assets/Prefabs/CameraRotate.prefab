@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 5
+  zoomSensitivity: 0.01
   deceleration: 5
   angleMin: 0
   angleMax: 0

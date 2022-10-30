@@ -6,7 +6,9 @@ using UnityEngine.EventSystems;
 public class CameraView : MonoBehaviour
 {
     [SerializeField] private float sensitivity;
+    [SerializeField] private float zoomSensitivity;
     [SerializeField] private float deceleration;
+    private float currentSpeed;
     [SerializeField] private float angleMin;
     [SerializeField] private float angleMax;
     private Vector2 lastClick;
@@ -35,6 +37,8 @@ public class CameraView : MonoBehaviour
     private void Update()
     {
         delta = Vector2.Lerp(delta, new(), Time.deltaTime * deceleration);
-
+        currentSpeed += Input.mouseScrollDelta.y * zoomSensitivity;
+        mainCam.fieldOfView += currentSpeed;
+        currentSpeed = Mathf.Lerp(currentSpeed, 0, Time.deltaTime * deceleration);
     }
 }
