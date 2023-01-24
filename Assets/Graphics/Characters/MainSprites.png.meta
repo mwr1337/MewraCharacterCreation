@@ -200,6 +200,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: MainSprites_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 77
+        width: 332
+        height: 596
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cd22356d720df419d9f71ae947667f
+      internalID: -177209978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainSprites_1
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 78
+        width: 332
+        height: 595
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac77911d279fbfd4ebf2af4089b3c480
+      internalID: 814915822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair_0_
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 238
+        width: 676
+        height: 489
+      alignment: 9
+      pivot: {x: 0.4707223, y: 0.4487326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15c3177874dcd34d8fe2225572951d9
+      internalID: -2050073088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainSprites_3
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 238
+        width: 674
+        height: 489
+      alignment: 9
+      pivot: {x: 0.4707223, y: 0.4487326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37068dad0ac4cbe45906cb6c733097a6
+      internalID: -2086939343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -211,10 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      MainSprites_0: -177209978
       Body_1: -57782797
+      Hair_0_: -2050073088
       Hair_0_1: -356685611
       Hair_0_2: -2127754650
       Body_0: 1764378392
+      MainSprites_1: 814915822
+      MainSprites_3: -2086939343
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
